@@ -12,6 +12,7 @@
 		B6B6B7422AA849CD00FA5A58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B6B7412AA849CD00FA5A58 /* Preview Assets.xcassets */; };
 		B6B6B74A2AA84A3200FA5A58 /* ViewModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6B7492AA84A3200FA5A58 /* ViewModifierView.swift */; };
 		B6B6B7502AA84E2F00FA5A58 /* CustomButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6B74F2AA84E2F00FA5A58 /* CustomButtonStyleView.swift */; };
+		B6B6B7532AA85C5F00FA5A58 /* CustomAnyTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6B7522AA85C5F00FA5A58 /* CustomAnyTransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B6B6B7412AA849CD00FA5A58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6B6B7492AA84A3200FA5A58 /* ViewModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierView.swift; sourceTree = "<group>"; };
 		B6B6B74F2AA84E2F00FA5A58 /* CustomButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyleView.swift; sourceTree = "<group>"; };
+		B6B6B7522AA85C5F00FA5A58 /* CustomAnyTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnyTransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B6B6B7382AA849CC00FA5A58 /* AdvancedSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B6B6B7512AA85C0600FA5A58 /* CustomAnyTransition */,
 				B6B6B74C2AA84DFD00FA5A58 /* CustomButtonStyle */,
 				B6B6B7482AA84A2300FA5A58 /* ViewModifier */,
 				B6B6B7392AA849CC00FA5A58 /* AdvancedSwiftUIApp.swift */,
@@ -86,6 +89,14 @@
 				B6B6B74F2AA84E2F00FA5A58 /* CustomButtonStyleView.swift */,
 			);
 			path = CustomButtonStyle;
+			sourceTree = "<group>";
+		};
+		B6B6B7512AA85C0600FA5A58 /* CustomAnyTransition */ = {
+			isa = PBXGroup;
+			children = (
+				B6B6B7522AA85C5F00FA5A58 /* CustomAnyTransitionView.swift */,
+			);
+			path = CustomAnyTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6B6B73A2AA849CC00FA5A58 /* AdvancedSwiftUIApp.swift in Sources */,
+				B6B6B7532AA85C5F00FA5A58 /* CustomAnyTransitionView.swift in Sources */,
 				B6B6B7502AA84E2F00FA5A58 /* CustomButtonStyleView.swift in Sources */,
 				B6B6B74A2AA84A3200FA5A58 /* ViewModifierView.swift in Sources */,
 			);
