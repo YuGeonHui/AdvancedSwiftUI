@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B60D07E02AA9618A0005B4DE /* MatchedGeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D07DF2AA9618A0005B4DE /* MatchedGeometryEffectView.swift */; };
 		B60D07E32AA966550005B4DE /* CustomShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D07E22AA966550005B4DE /* CustomShapeView.swift */; };
+		B60D07E62AA9A64E0005B4DE /* GenericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D07E52AA9A64E0005B4DE /* GenericView.swift */; };
 		B6B6B73A2AA849CC00FA5A58 /* AdvancedSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6B7392AA849CC00FA5A58 /* AdvancedSwiftUIApp.swift */; };
 		B6B6B73E2AA849CD00FA5A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B6B73D2AA849CD00FA5A58 /* Assets.xcassets */; };
 		B6B6B7422AA849CD00FA5A58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B6B7412AA849CD00FA5A58 /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		B60D07DF2AA9618A0005B4DE /* MatchedGeometryEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectView.swift; sourceTree = "<group>"; };
 		B60D07E22AA966550005B4DE /* CustomShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeView.swift; sourceTree = "<group>"; };
+		B60D07E52AA9A64E0005B4DE /* GenericView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericView.swift; sourceTree = "<group>"; };
 		B6B6B7362AA849CC00FA5A58 /* AdvancedSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B6B7392AA849CC00FA5A58 /* AdvancedSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSwiftUIApp.swift; sourceTree = "<group>"; };
 		B6B6B73D2AA849CD00FA5A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 			path = CustomShape;
 			sourceTree = "<group>";
 		};
+		B60D07E42AA9A5A70005B4DE /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				B60D07E52AA9A64E0005B4DE /* GenericView.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
 		B6B6B72D2AA849CC00FA5A58 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		B6B6B7382AA849CC00FA5A58 /* AdvancedSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B60D07E42AA9A5A70005B4DE /* Generic */,
 				B60D07E12AA966390005B4DE /* CustomShape */,
 				B6B6B7542AA87AF600FA5A58 /* MatchedGeometryEffect */,
 				B6B6B7512AA85C0600FA5A58 /* CustomAnyTransition */,
@@ -191,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60D07E62AA9A64E0005B4DE /* GenericView.swift in Sources */,
 				B60D07E02AA9618A0005B4DE /* MatchedGeometryEffectView.swift in Sources */,
 				B6B6B73A2AA849CC00FA5A58 /* AdvancedSwiftUIApp.swift in Sources */,
 				B6B6B7532AA85C5F00FA5A58 /* CustomAnyTransitionView.swift in Sources */,
