@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60D07E02AA9618A0005B4DE /* MatchedGeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D07DF2AA9618A0005B4DE /* MatchedGeometryEffectView.swift */; };
 		B6B6B73A2AA849CC00FA5A58 /* AdvancedSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6B7392AA849CC00FA5A58 /* AdvancedSwiftUIApp.swift */; };
 		B6B6B73E2AA849CD00FA5A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B6B73D2AA849CD00FA5A58 /* Assets.xcassets */; };
 		B6B6B7422AA849CD00FA5A58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B6B7412AA849CD00FA5A58 /* Preview Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B60D07DF2AA9618A0005B4DE /* MatchedGeometryEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectView.swift; sourceTree = "<group>"; };
 		B6B6B7362AA849CC00FA5A58 /* AdvancedSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B6B7392AA849CC00FA5A58 /* AdvancedSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSwiftUIApp.swift; sourceTree = "<group>"; };
 		B6B6B73D2AA849CD00FA5A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		B6B6B7382AA849CC00FA5A58 /* AdvancedSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B6B6B7542AA87AF600FA5A58 /* MatchedGeometryEffect */,
 				B6B6B7512AA85C0600FA5A58 /* CustomAnyTransition */,
 				B6B6B74C2AA84DFD00FA5A58 /* CustomButtonStyle */,
 				B6B6B7482AA84A2300FA5A58 /* ViewModifier */,
@@ -97,6 +100,14 @@
 				B6B6B7522AA85C5F00FA5A58 /* CustomAnyTransitionView.swift */,
 			);
 			path = CustomAnyTransition;
+			sourceTree = "<group>";
+		};
+		B6B6B7542AA87AF600FA5A58 /* MatchedGeometryEffect */ = {
+			isa = PBXGroup;
+			children = (
+				B60D07DF2AA9618A0005B4DE /* MatchedGeometryEffectView.swift */,
+			);
+			path = MatchedGeometryEffect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60D07E02AA9618A0005B4DE /* MatchedGeometryEffectView.swift in Sources */,
 				B6B6B73A2AA849CC00FA5A58 /* AdvancedSwiftUIApp.swift in Sources */,
 				B6B6B7532AA85C5F00FA5A58 /* CustomAnyTransitionView.swift in Sources */,
 				B6B6B7502AA84E2F00FA5A58 /* CustomButtonStyleView.swift in Sources */,
