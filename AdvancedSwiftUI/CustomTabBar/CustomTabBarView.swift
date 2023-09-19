@@ -10,9 +10,10 @@ import SwiftUI
 struct CustomTabBarView: View {
     
     let tabs: [TabBarItem]
+    
+    @State var localSelection: TabBarItem
     @Binding var selection: TabBarItem
     @Namespace private var namespace
-    @State var localSelection: TabBarItem
     
     var body: some View {
         tabBarVersion2
@@ -67,7 +68,7 @@ struct CustomTabBarView_Previews: PreviewProvider {
     static var previews: some View {
         VStack {
             Spacer()
-            CustomTabBarView(tabs: tabs, selection: .constant(tabs.first!), localSelection: tabs.first!)
+            CustomTabBarView(tabs: tabs, localSelection: tabs.first!, selection: .constant(tabs.first!))
         }
     }
 }
