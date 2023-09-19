@@ -9,9 +9,10 @@ import SwiftUI
 
 struct CustomTabBarContainerView<Content: View>: View {
     
-    @Binding var selection: TabBarItem
     let content: Content
+    
     @State private var tabs: [TabBarItem] = []
+    @Binding var selection: TabBarItem
     
     init(selection: Binding<TabBarItem>, @ViewBuilder content: () -> Content) {
         self._selection = selection
@@ -23,7 +24,7 @@ struct CustomTabBarContainerView<Content: View>: View {
             content
                 .ignoresSafeArea()
             
-            CustomTabBarView(tabs: tabs, selection: $selection, localSelection: selection)
+            CustomTabBarView(tabs: tabs, localSelection: selection, selection: $selection)
         }
         .onPreferenceChange(TabBarItemsPreferenceKey.self) { value in
             self.tabs = value
